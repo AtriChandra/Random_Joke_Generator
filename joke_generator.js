@@ -12,7 +12,7 @@ const getJoke=()=>{
             const joke=JSON.parse(data);
             console.log(`Here is random ${joke.type} joke: `);
             console.log(chalk.red(`${joke.setup}`));
-            console.log(chalk.blue.bgRed.bold(`${joke.punchline}`));
+            console.log(chalk.blue.bgGreen.bold(`${joke.punchline}`));
         });
         res.on('error',(err)=>{
             console.log( `Error fetching the joke, ${err.message}`);
