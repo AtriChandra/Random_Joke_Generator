@@ -1,0 +1,17 @@
+{
+  "name": "random_joke_generator",
+  "version": "1.0.0",
+  "type": "module",     
+  "main": "joke_generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node joke_generator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "nodemon": "^3.1.10"
+  }
+}
