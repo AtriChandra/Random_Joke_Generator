@@ -13,5 +13,4 @@ A simple and fun CLI-based Joke Generator built with **Node.js**. This app fetch
 - **Node.js**: Backend runtime to run JavaScript outside the browser.
 - **https module**: Built-in Node.js module to make API requests.
 - **chalk**: Terminal string styling (colors, backgrounds, etc.).
-- **nodemon** *(dev only)*: For automatic script reload during development.
 
